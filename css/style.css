@@ -1,0 +1,50 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Roboto', sans-serif;;
+}
+/* Common */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+/* Header */
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #FF6900;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.col-logo{
+    text-align: center;
+    width: calc(100% / 3 * 2);
+}
+.logo{
+    width: 140px;
+}
+.list-category li{
+    padding-right: 10px;
+    font-weight: 800;
+}
+.list-cart li{
+    padding-left: 10px;
+}
+/* Main */
